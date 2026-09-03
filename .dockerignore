@@ -1,0 +1,26 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Local virtual environment
+.venv/
+venv/
+env/
+
+# Ignore heavy installers but keep the CSV
+data/Docker Desktop Installer.exe
+*.exe
+
+# Version control and editor config
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Testing and temp files
+test_client.py
+tempCodeRunnerFile.py
+*.log
